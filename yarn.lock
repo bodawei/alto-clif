@@ -59,7 +59,7 @@
     supports-color "^5.4.0"
     tslib "^1"
 
-"@oclif/command@^1.5.1", "@oclif/command@^1.5.10", "@oclif/command@^1.5.12", "@oclif/command@^1.5.13", "@oclif/command@^1.5.3", "@oclif/command@^1.5.6":
+"@oclif/command@^1.5.1", "@oclif/command@^1.5.10", "@oclif/command@^1.5.12", "@oclif/command@^1.5.13", "@oclif/command@^1.5.3":
   version "1.5.14"
   resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.5.14.tgz#cdf6013134abfb5630783f27e78436096ce3ed88"
   integrity sha512-R9gat0yUjamDVd4trvFgjlx2XYuMz1nM0uEBFP6nR1zOQAwJ3E1zqYbsVlCMWiUDGjU1hYmudmK7IjAxDUoqDw==
@@ -121,7 +121,7 @@
   resolved "https://registry.yarnpkg.com/@oclif/linewrap/-/linewrap-1.0.0.tgz#aedcb64b479d4db7be24196384897b5000901d91"
   integrity sha512-Ups2dShK52xXa8w6iBWLgcjPJWjais6KPJQq3gQ/88AY6BXoTX+MIGFPrWQO1KLMiQfoTpcLnUwloN4brrVUHw==
 
-"@oclif/parser@^3.7.3":
+"@oclif/parser@3.8.1", "@oclif/parser@^3.7.3":
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.8.1.tgz#3c842ef4a8ce3d1f5bcfa5938d3fbebf1c6a0618"
   integrity sha512-0OavFuLj6FBTdZDD6DXdNqH4qdLFLQD/PKK1OvNZhUd4/5v/lp6Ftzilwmirf549naNHq0u15uk1YCBvym5tNQ==
@@ -309,6 +309,16 @@ alce@1.2.0:
   dependencies:
     esprima "^1.2.0"
     estraverse "^1.5.0"
+
+alto-command@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/alto-command/-/alto-command-0.9.1.tgz#e72e1adc4390b35f8f3f0d9b72b2ab4a74eceb24"
+  integrity sha512-1Xb+erk9iwbnrQ9io54cZ+Mb+eW1ppb5XYiQ98nrcyltsA+qfG2Z5kuGzAavYEEd8K01bhKt/ZDlS+AURMm3fQ==
+  dependencies:
+    "@oclif/errors" "^1.2.2"
+    "@oclif/parser" "3.8.1"
+    debug "^4.1.1"
+    semver "^5.6.0"
 
 ansi-escapes@^3.1.0, ansi-escapes@^3.2.0:
   version "3.2.0"

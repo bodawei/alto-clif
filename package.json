@@ -1,18 +1,20 @@
 {
-  "name": "oclif",
-  "description": "oclif: create your own CLI",
-  "version": "1.12.6",
-  "author": "Jeff Dickey @jdxcode",
+  "name": "alto-clif",
+  "description": "Create an alto-clif CLI (fork of @oclif/oclif)",
+  "version": "0.9.0",
+  "author": "柏大衛",
+  "ocif-version": "1.13.2",
+  "oclif-author": "Jeff Dickey @jdxcode",
   "bin": "./bin/run",
-  "bugs": "https://github.com/oclif/oclif/issues",
+  "bugs": "https://github.com/bodawei/alto-clif/issues",
   "dependencies": {
-    "@oclif/command": "^1.5.6",
     "@oclif/config": "^1.9.0",
     "@oclif/errors": "^1.2.2",
     "@oclif/fixpack": "^2.3.0",
     "@oclif/plugin-help": "^2.1.4",
     "@oclif/plugin-not-found": "^1.2.2",
     "@oclif/plugin-warn-if-update-available": "^1.5.4",
+    "alto-command": "^0.9.1",
     "debug": "^4.1.0",
     "lodash": "^4.17.11",
     "nps-utils": "^1.7.0",
@@ -55,9 +57,10 @@
     "/lib",
     "/templates"
   ],
-  "homepage": "https://github.com/oclif/oclif",
+  "homepage": "https://github.com/bodawei/alto-clif",
   "keywords": [
-    "oclif"
+    "oclif",
+    "alto-clif"
   ],
   "license": "MIT",
   "main": "lib/index.js",
@@ -68,9 +71,9 @@
       "@oclif/plugin-warn-if-update-available",
       "@oclif/plugin-not-found"
     ],
-    "bin": "oclif"
+    "bin": "alto-clif"
   },
-  "repository": "oclif/oclif",
+  "repository": "bodawei/alto-clif",
   "scripts": {
     "lint": "nps lint",
     "postpack": "rm .oclif.manifest.json",
