@@ -1,16 +1,31 @@
+alto-clif
+===============
+[![Version](https://img.shields.io/npm/v/alto-clif.svg)](https://npmjs.org/package/alto-clif)
+[![License](https://img.shields.io/npm/l/alto-clif.svg)](https://github.com/bodawei/alto-clif/blob/master/package.json)
 
-<img src="https://user-images.githubusercontent.com/449385/38243295-e0a47d58-372e-11e8-9bc0-8c02a6f4d2ac.png" width="260" height="73">  
+### About
+This is a fork of [@oclif/oclif](https://github.com/oclif/oclif).
+The reason for this fork is to change this to allow one to create commands with space-separated
+subcommands rather than the heroku-style colon delimited.  This is a minimal change, which should
+allow this to be used with the rest of the `@oclif/*` system.
 
+### Notes/Next steps
+* This hasn't been particularly heavily tested, at this moment.
+* See alto-command for more details
+
+### Name explanation
+This is an alternate oclif, which is to say: "alt-oclif", which is to say "alto-clif".
+
+### Thanks
+
+Thanks to the [`@oclif` team and contributors](https://github.com/oclif/command/graphs/contributors).
+There are are lot of great ideas in oclif! Without them, of course, this package wouldn't exist!
+
+Original README info, below
+===============
 
 oclif: Node.JS Open CLI Framework
 =================================
-
-[![Join the chat at https://gitter.im/oclif/oclif](https://badges.gitter.im/oclif/oclif.svg)](https://gitter.im/oclif/oclif?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Version](https://img.shields.io/npm/v/oclif.svg)](https://npmjs.org/package/oclif)
-[![CircleCI](https://circleci.com/gh/oclif/oclif/tree/master.svg?style=shield)](https://circleci.com/gh/oclif/oclif/tree/master)
-[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/oclif/oclif?branch=master&svg=true)](https://ci.appveyor.com/project/heroku/oclif/branch/master)
-[![Downloads/week](https://img.shields.io/npm/dw/@oclif/command.svg)](https://npmjs.org/package/@oclif/command)
-[![License](https://img.shields.io/npm/l/oclif.svg)](https://github.com/oclif/oclif/blob/master/package.json)
 
 <!-- toc -->
 * [🗒 Description](#-description)
