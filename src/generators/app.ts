@@ -358,7 +358,7 @@ class App extends Generator {
     }
     if (this.type === 'multi' && !this.pjson.oclif.plugins) {
       this.pjson.oclif.plugins = [
-        '@oclif/plugin-help',
+        'alto-plugin-help',
       ]
     }
 
@@ -445,7 +445,7 @@ class App extends Generator {
       dependencies.push(
           '@oclif/config@^1',
           'alto-command@^0',
-          '@oclif/plugin-help@^2',
+          'alto-plugin-help@^0',
         )
       devDependencies.push(
           '@oclif/dev-cli@^1',
