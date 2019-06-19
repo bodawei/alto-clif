@@ -1,7 +1,7 @@
 {
   "name": "alto-clif",
   "description": "Create an alto-clif CLI (fork of @oclif/oclif)",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "author": "柏大衛",
   "ocif-version": "1.13.2",
   "oclif-author": "Jeff Dickey @jdxcode",
