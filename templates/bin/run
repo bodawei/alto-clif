@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
 require('alto-command').run()
-.then(require('@oclif/command/flush'))
+.then(require('alto-command/flush'))
 .catch(require('@oclif/errors/handle'))

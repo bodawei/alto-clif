@@ -1,4 +1,4 @@
-import Command from '@oclif/command'
+import Command from 'alto-command'
 import {createEnv} from 'yeoman-environment'
 
 export default abstract class CommandBase extends Command {
