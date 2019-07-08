@@ -81,9 +81,6 @@ jobs:
     docker:
       - image: node:8
     steps: *base_steps
-  node-8-single:
-    <<: *node_8
-    steps: *single_steps
   node-8-plugin:
     <<: *node_8
     steps: *plugin_steps

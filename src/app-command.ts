@@ -1,4 +1,4 @@
-import {flags} from '@oclif/command'
+import {flags} from 'alto-command'
 
 import Base from './command-base'
 
