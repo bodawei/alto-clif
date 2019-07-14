@@ -122,7 +122,7 @@ jobs:
 
 workflows:
   version: 2
-  oclif:
+  alto-clif:
     jobs:
       - lint
       - node-latest-base: {requires: [lint] }
