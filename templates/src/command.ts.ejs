@@ -16,7 +16,7 @@ hello world from ./src/<%- name %>.ts!
   ]
 
 <%_ } _%>
-  static flags = {
+  static flags: flags.Input<any> = {
 <%_ if (type === 'single') { _%>
     // add --version flag to show CLI version
     version: flags.version({char: 'v'}),
