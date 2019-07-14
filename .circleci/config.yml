@@ -133,7 +133,6 @@ workflows:
       - node-latest-hook: {requires: [lint] }
       - cache: {requires: [release] }
       - release:
-          context: org-global
           filters:
             branches: {only: master}
           requires:
