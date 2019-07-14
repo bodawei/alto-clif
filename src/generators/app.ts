@@ -448,7 +448,7 @@ class App extends Generator {
       devDependencies.push(
           '@oclif/dev-cli@^1',
           'alto-plugin-help',
-          'globby@^8',
+          'globby@^10',
         )
       break
     case 'multi':
@@ -459,7 +459,7 @@ class App extends Generator {
         )
       devDependencies.push(
           '@oclif/dev-cli@^1',
-          'globby@^8',
+          'globby@^10',
         )
     }
     if (this.mocha) {
