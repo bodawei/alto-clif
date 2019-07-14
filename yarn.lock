@@ -310,10 +310,10 @@ alce@1.2.0:
     esprima "^1.2.0"
     estraverse "^1.5.0"
 
-alto-command@^0.9.4:
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/alto-command/-/alto-command-0.9.4.tgz#4825616f9e7fe1ee3cc505499775aa955fbedebe"
-  integrity sha512-m6UQlr0cEHxRNeFtduxOh263hIHVnQWUpWlHpm9XOgOPDrHizTDbkK+bJAzo0PlKZpsQ293wlLIFkK8KDGd1lQ==
+alto-command@^0.9.5:
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/alto-command/-/alto-command-0.9.5.tgz#1ea1404835a37b6a1bddbfef4d1564beac2287a3"
+  integrity sha512-8bQKVmqKVvnEJ/VGfKN3WLkjIMoi376IPGjSzoHmrirJ5vC6mLZm5XNJn10CLGFiPCAULF+hg95oWliHvrfhTg==
   dependencies:
     "@oclif/errors" "^1.2.2"
     "@oclif/parser" "3.8.1"

@@ -436,13 +436,13 @@ class App extends Generator {
     case 'single':
       dependencies.push(
           '@oclif/config@^1',
-          'alto-command',
+          'alto-command@^0',
           'alto-plugin-help',
         )
       break
     case 'plugin':
       dependencies.push(
-        'alto-command',
+        'alto-command@^0',
         '@oclif/config@^1',
         )
       devDependencies.push(
