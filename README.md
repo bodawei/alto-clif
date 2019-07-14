@@ -1,7 +1,7 @@
 alto-clif
 ===============
 [![Version](https://img.shields.io/npm/v/alto-clif.svg)](https://npmjs.org/package/alto-clif)
-[![CircleCI](https://circleci.com/gh/alto-clif/tree/master.svg?style=shield)](https://circleci.com/gh/bodawei/alto-clif/tree/master)
+[![CircleCI](https://circleci.com/gh/bodawei/alto-clif/tree/master.svg?style=shield)](https://circleci.com/gh/bodawei/alto-clif/tree/master)
 [![License](https://img.shields.io/npm/l/alto-clif.svg)](https://github.com/bodawei/alto-clif/blob/master/package.json)
 
 ### About
