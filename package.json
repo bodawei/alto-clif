@@ -3,7 +3,7 @@
   "description": "Create an alto-clif CLI (fork of @oclif/oclif)",
   "version": "0.9.6",
   "author": "柏大衛",
-  "version": "1.14.2",
+  "oclif-version": "1.14.2",
   "oclif-author": "Jeff Dickey @jdxcode",
   "bin": "./bin/run",
   "bugs": "https://github.com/bodawei/alto-clif/issues",
