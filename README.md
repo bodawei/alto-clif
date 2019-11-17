@@ -38,7 +38,7 @@ oclif: Node.JS Open CLI Framework
 * [📚 Examples](#-examples)
 * [🔨 Commands](#-commands)
 * [🏭 Related Repositories](#-related-repositories)
-* [🦔 Learn More](#-learn-more)
+* [🦔 Learn More](#🦔-learn-more)
 * [📣 Feedback](#-feedback)
 <!-- tocstop -->
 
@@ -54,7 +54,7 @@ The [Getting Started tutorial](http://oclif.io/docs/introduction) is a step-by-s
 
 # ✨ Features
 
-* **Flag/Argument parsing** - No CLI framework would be complete without a flag parser. We've built a custom one from years of experimentation that we feel consistently handles user input flexible enough for the user to be able to easily use the CLI in ways they expect, but without comprisiming strictness guarantees to the developer.
+* **Flag/Argument parsing** - No CLI framework would be complete without a flag parser. We've built a custom one from years of experimentation that we feel consistently handles user input flexible enough for the user to be able to easily use the CLI in ways they expect, but without compromising strictness guarantees to the developer.
 * **Super Speed** - The overhead for running an oclif CLI command is almost nothing. [It requires very few dependencies](https://www.npmjs.com/package/@oclif/command?activeTab=dependencies) (only 35 dependencies in a minimal setup—including all transitive dependencies). Also, only the command to be executed will be required with node. So large CLIs with many commands will load just as fast as a small one with a single command.
 * **CLI Generator** - Run a single command to scaffold out a fully functional CLI and get started quickly. See [Usage](#-usage) below.
 * **Testing Helpers** - We've put a lot of work into making commands easily testable and easy to mock out stdout/stderr. The generator will automatically create [scaffolded tests](https://github.com/oclif/example-multi-ts/blob/master/test/commands/hello.test.ts).
@@ -73,7 +73,7 @@ $ heroku info --app=<tab><tab> # will complete with all the Heroku apps a user h
 
 # 📌 Requirements
 
-Only Node 8+ is supported. Node 6 will reach end-of-life April 2019. At that point we will continue to support the current LTS version of node. You can add the [node](https://www.npmjs.com/package/node) package to your CLI to ensure users are on Node 8.
+Currently, Node 8+ is supported. We support the [LTS versions](https://nodejs.org/en/about/releases) of Node. You can add the [node](https://www.npmjs.com/package/node) package to your CLI to ensure users are running a specific version of Node.
 
 # 🌈 CLI Types
 
@@ -162,7 +162,7 @@ OPTIONS
   --force     overwrite existing files
 ```
 
-_See code: [src/commands/command.ts](https://github.com/oclif/oclif/blob/v1.13.5/src/commands/command.ts)_
+_See code: [src/commands/command.ts](https://github.com/oclif/oclif/blob/v1.14.2/src/commands/command.ts)_
 
 ## `oclif help [COMMAND]`
 
@@ -179,7 +179,7 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.1/src/commands/help.ts)_
 
 ## `oclif hook NAME`
 
@@ -198,7 +198,7 @@ OPTIONS
   --force        overwrite existing files
 ```
 
-_See code: [src/commands/hook.ts](https://github.com/oclif/oclif/blob/v1.13.5/src/commands/hook.ts)_
+_See code: [src/commands/hook.ts](https://github.com/oclif/oclif/blob/v1.14.2/src/commands/hook.ts)_
 
 ## `oclif multi [PATH]`
 
@@ -217,7 +217,7 @@ OPTIONS
   --options=options  (yarn|typescript|tslint|mocha)
 ```
 
-_See code: [src/commands/multi.ts](https://github.com/oclif/oclif/blob/v1.13.5/src/commands/multi.ts)_
+_See code: [src/commands/multi.ts](https://github.com/oclif/oclif/blob/v1.14.2/src/commands/multi.ts)_
 
 ## `oclif plugin [PATH]`
 
@@ -236,7 +236,7 @@ OPTIONS
   --options=options  (yarn|typescript|tslint|mocha)
 ```
 
-_See code: [src/commands/plugin.ts](https://github.com/oclif/oclif/blob/v1.13.5/src/commands/plugin.ts)_
+_See code: [src/commands/plugin.ts](https://github.com/oclif/oclif/blob/v1.14.2/src/commands/plugin.ts)_
 
 ## `oclif single [PATH]`
 
@@ -255,7 +255,7 @@ OPTIONS
   --options=options  (yarn|typescript|tslint|mocha)
 ```
 
-_See code: [src/commands/single.ts](https://github.com/oclif/oclif/blob/v1.13.5/src/commands/single.ts)_
+_See code: [src/commands/single.ts](https://github.com/oclif/oclif/blob/v1.14.2/src/commands/single.ts)_
 <!-- commandsstop -->
 
 # 🏭 Related Repositories

@@ -1,9 +1,9 @@
 {
   "name": "alto-clif",
   "description": "Create an alto-clif CLI (fork of @oclif/oclif)",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "author": "柏大衛",
-  "ocif-version": "1.13.5",
+  "version": "1.14.2",
   "oclif-author": "Jeff Dickey @jdxcode",
   "bin": "./bin/run",
   "bugs": "https://github.com/bodawei/alto-clif/issues",
@@ -11,10 +11,10 @@
     "@oclif/config": "^1.12.6",
     "@oclif/errors": "^1.2.2",
     "@oclif/fixpack": "^2.3.0",
-    "@oclif/plugin-help": "^2.1.6",
+    "alto-plugin-help": "^0",
     "@oclif/plugin-not-found": "^1.2.2",
     "@oclif/plugin-warn-if-update-available": "^1.5.4",
-    "alto-command": "^0.9.5",
+    "alto-command": "^0.9.7",
     "debug": "^4.1.1",
     "lodash": "^4.17.11",
     "nps-utils": "^1.7.0",
@@ -67,7 +67,7 @@
   "oclif": {
     "commands": "./lib/commands",
     "plugins": [
-      "@oclif/plugin-help",
+      "alto-plugin-help",
       "@oclif/plugin-warn-if-update-available",
       "@oclif/plugin-not-found"
     ],
