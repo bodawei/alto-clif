@@ -1,5 +1,8 @@
 # alto-clif Changes
 
+## [0.9.6] (2019-11-17)
+* Upgraded underlying oclif version to 1.14.2 (oops... neglected this for a while)
+
 ## [0.9.5] (2019-07-13)
 * Upgraded underlying oclif version
 
@@ -7,6 +10,27 @@
 * Fixed tests.
 
 # Oclif Changes
+## [1.14.2](https://github.com/oclif/oclif/compare/v1.14.1...v1.14.2) (2019-10-25)
+
+
+### Bug Fixes
+
+* bump nyc version in generator ([#295](https://github.com/oclif/oclif/issues/295)) ([5fdf1b0](https://github.com/oclif/oclif/commit/5fdf1b0d622d8662d7cd33f975c1730e549e33b2))
+
+## [1.14.1](https://github.com/oclif/oclif/compare/v1.14.0...v1.14.1) (2019-10-22)
+
+
+### Bug Fixes
+
+* update oclif deps ([fec3106](https://github.com/oclif/oclif/commit/fec3106ba1fbd4c37fcc5dc97472c9ada549a014))
+
+## [1.13.6](https://github.com/oclif/oclif/compare/v1.13.5...v1.13.6) (2019-08-28)
+
+
+### Bug Fixes
+
+* update README Requirements ([f2bd11e](https://github.com/oclif/oclif/commit/f2bd11e))
+
 ## [1.13.5](https://github.com/oclif/oclif/compare/v1.13.4...v1.13.5) (2019-07-12)
 
 
