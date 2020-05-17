@@ -1,20 +1,21 @@
 {
   "name": "alto-clif",
   "description": "Create an alto-clif CLI (fork of @oclif/oclif)",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "author": "柏大衛",
-  "version": "1.14.2",
+  "oclif-version": "1.16.1",
   "oclif-author": "Jeff Dickey @jdxcode",
   "bin": "./bin/run",
   "bugs": "https://github.com/bodawei/alto-clif/issues",
   "dependencies": {
+    "alto-command": "^0.9.9",
     "@oclif/config": "^1.12.6",
     "@oclif/errors": "^1.2.2",
     "@oclif/fixpack": "^2.3.0",
     "alto-plugin-help": "^0",
+    "@oclif/plugin-help": "^2",
     "@oclif/plugin-not-found": "^1.2.2",
     "@oclif/plugin-warn-if-update-available": "^1.5.4",
-    "alto-command": "^0.9.7",
     "debug": "^4.1.1",
     "lodash": "^4.17.11",
     "nps-utils": "^1.7.0",
@@ -26,15 +27,15 @@
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.21.0",
-    "@oclif/tslint": "^3.1.1",
     "@types/lodash": "^4.14.121",
     "@types/read-pkg": "^3.0.0",
     "@types/shelljs": "^0.8.3",
-    "@types/yeoman-generator": "^3.0.2",
+    "@types/yeoman-generator": "^3.1.4",
     "@types/yosay": "^0.0.29",
     "chai": "^4.2.0",
-    "eslint": "^5.13.0",
+    "eslint": "^6.6.0",
     "eslint-config-oclif": "^3.1.0",
+    "eslint-config-oclif-typescript": "^0.1.0",
     "execa": "^1.0.0",
     "fancy-test": "^1.4.3",
     "fs-extra": "^7.0.1",
@@ -45,8 +46,7 @@
     "shelljs": "^0.8.3",
     "tmp": "^0.0.33",
     "ts-node": "^8.0.2",
-    "tslint": "^5.12.1",
-    "typescript": "^3.3.3"
+    "typescript": "^3.7"
   },
   "engines": {
     "node": ">=8.0.0"
