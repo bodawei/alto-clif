@@ -1,6 +1,6 @@
 # alto-clif Changes
 
-## [0.9.7] (2020-05017)
+## [0.9.7] (2020-05-17)
 * Upgraded underlying oclif version to 1.16.1 (no good excuses this time.)
 
 ## [0.9.6] (2019-11-17)
