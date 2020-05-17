@@ -1,5 +1,8 @@
 # alto-clif Changes
 
+## [0.9.7] (2020-05017)
+* Upgraded underlying oclif version to 1.16.1 (no good excuses this time.)
+
 ## [0.9.6] (2019-11-17)
 * Upgraded underlying oclif version to 1.14.2 (oops... neglected this for a while)
 
@@ -10,6 +13,46 @@
 * Fixed tests.
 
 # Oclif Changes
+## [1.16.1](https://github.com/oclif/oclif/compare/v1.16.0...v1.16.1) (2020-05-07)
+
+
+### Bug Fixes
+
+* short circuit with nullish coalescing operator ([#327](https://github.com/oclif/oclif/issues/327)) ([de8a7a0](https://github.com/oclif/oclif/commit/de8a7a0cb633cc9bfd34a6eff5374cda24344df8))
+
+# [1.16.0](https://github.com/oclif/oclif/compare/v1.15.2...v1.16.0) (2020-05-07)
+
+
+### Features
+
+* create clis with plugin-help v3 ([#343](https://github.com/oclif/oclif/issues/343)) ([a580350](https://github.com/oclif/oclif/commit/a580350a3988f3ebaa76c16180c0afe7fabdc763))
+
+## [1.15.2](https://github.com/oclif/oclif/compare/v1.15.1...v1.15.2) (2019-12-16)
+
+
+### Bug Fixes
+
+* include dev-cli in single cli generation & run readme ([#296](https://github.com/oclif/oclif/issues/296)) ([fcef7c9](https://github.com/oclif/oclif/commit/fcef7c9def2aeceef603cea2441c5a4e6bbc8972))
+
+## [1.15.1](https://github.com/oclif/oclif/compare/v1.15.0...v1.15.1) (2019-11-19)
+
+
+### Bug Fixes
+
+* nps build step in release ([#306](https://github.com/oclif/oclif/issues/306)) ([1fbf44b](https://github.com/oclif/oclif/commit/1fbf44b15b40adad6c4a61f7d62fff8c4f85fc0a))
+
+# [1.15.0](https://github.com/oclif/oclif/compare/v1.14.2...v1.15.0) (2019-11-19)
+
+
+### Bug Fixes
+
+* only use yarn in circle config if selected as option ([#298](https://github.com/oclif/oclif/issues/298)) ([9914b56](https://github.com/oclif/oclif/commit/9914b56bf16bfcdb5e1b4939bf8502652bacfabb))
+
+
+### Features
+
+* remove tslint and default to eslint ([#305](https://github.com/oclif/oclif/issues/305)) ([9b188d9](https://github.com/oclif/oclif/commit/9b188d9b87d0218ed8704db4452b9bf5eb3a39e8))
+
 ## [1.14.2](https://github.com/oclif/oclif/compare/v1.14.1...v1.14.2) (2019-10-25)
 
 
